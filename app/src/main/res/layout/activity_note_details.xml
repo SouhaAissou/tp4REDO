@@ -75,6 +75,15 @@
             android:layout_marginTop="16dp"
             android:text="Read Note" />
 
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/noteContentTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:text="Edit Note" />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
